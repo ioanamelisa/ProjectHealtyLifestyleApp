@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScreenTwo"
+    android:background="@drawable/img_backround">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_todolist"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="To-Do List"
+            android:layout_margin="16dp"
+            android:background="#8c53"/>
+        
+        <Button
+            android:id="@+id/btn_workouts"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Workouts"
+            android:layout_margin="16dp"
+            android:background="#8c53"/>
+
+        <Button
+            android:id="@+id/btn_foods"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Foods"
+            android:layout_margin="16dp"
+            android:background="#8c53"/>
+
+        <Button
+            android:id="@+id/btn_inspirational_quotes"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Inspirational_Quotes"
+            android:layout_margin="16dp"
+            android:background="#8c53"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
